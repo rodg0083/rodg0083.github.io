@@ -1,9 +1,13 @@
 html { 
     background: linear-gradient(rgb(147, 247, 197), rgb(122, 205, 211));
     }
+    .site-title{
+    color: rgb(126, 29, 170);     
+    }
     body {
+    font-size: 18px; 
     background-color: white;
-    max-width: 612px;
+    max-width: 700px;
     margin: auto;
     padding: 70px;
     border: 10px solid #c3c3c3;
@@ -17,6 +21,12 @@ html {
     img{
     border-top: 6px solid rgb(86, 7, 122);
     border-bottom: 6px solid rgb(86, 7, 122);
+    border-radius: 50%; 
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 2px 1px black;  
         }
     h1 {
     text-align: center;
@@ -46,17 +56,41 @@ html {
     li {
     text-align: left;
     text-indent: 90px;
+    list-style-type: square;
+    width: 600px;
 	 }
     blockquote{
     background-color:rgb(249, 255, 193); 
         }
-    .navbar {
-    display: inherit;
-    text-align: center;
-    font-size: 25px;
-    border-style: outset;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    padding: 10px;
-    background-color: rgb(122, 205, 211);
+    header, footer{
+    background-color:rgb(238, 221, 255);
     border-radius: 8px;
+    }
+    li:nth-child(2n-1){
+        background-color: rgb(238, 221, 255);
+        }
+    .navbar{
+     width: 48.5%;  
+     background-color:rgb(122, 205, 211);  
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+     text-align: center;
+     font-size: 25px;
+     overflow: auto;
+    }
+    .navbar a{
+    float:left;
+    top: 0;
+    border-style: outset;
+    color: #000;
+    padding: 10px;
+    border-radius: 8px;
+    display: block;
+    text-decoration: none;  
+    position: fixed; /* Make it stick, even on scroll */ 
+    background-color:rgb(122, 205, 211);  
+    opacity: 0.6;
+    }
+    .navbar a:hover {
+    background-color: rgb(5, 5, 5);
+    color: white;
         }
