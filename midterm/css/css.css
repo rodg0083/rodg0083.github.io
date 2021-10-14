@@ -3,8 +3,8 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+html, body, div, span, applet, object, iframe, 
+h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style: inside;
 }
 blockquote, q {
 	quotes: none;
@@ -64,24 +64,26 @@ h1{
     margin: auto;
     padding: 120px;    
 }
-main{
+body{
     font-size: 18px; 
     background-color: #eafdfb;
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
-    padding: 70px;
     border: 10px solid #a1b7bb;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
 }
 img{
     float: left;
     border-radius: 10%; 
-    padding: 10px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /*box-shadow: 0px 0px 2px 1px black; */
+    margin: 20px;
+    margin-top: 60px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.contact1{
+    border-right: none;
+    }
 .navbar{
     position: sticky;
     top: 0;
@@ -95,23 +97,33 @@ img{
    }
 .navbar a{
    float: left;
+   color:black;
    padding: 10px;
-   padding-left: 10%;
-   padding-right: 10%;
+   padding-left: 97.51px;
+   padding-right: 97.51px;
    display: block;
    text-decoration: none;  
    opacity: 0.6;
-   border: 2px solid rgb(0, 0, 0);
+   border-right: 2px solid rgb(0, 0, 0);
+   }
+.navbar a:last-child{
+    border-right: none; 
    }
 .navbar a:hover {
    background-color: rgb(5, 5, 5);
    color: white;
        }
 footer{
-    padding: 2px;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 0px;
     box-shadow: 0px 0px 2px 1px black; 
     }
 li{
     text-align: left;    
     }
+article{
+    padding:30px;
+}
+.contact-page{
+    border: 2px solid rgb(0, 0, 0);    
+}
