@@ -6,46 +6,73 @@
     <link href="css/css.css" rel="stylesheet">
 </head>
 <body>
-<header>
+<div>
+<header id="home">
 <h1>Lone Starfish</h1>
 </header>
 <nav class="navbar">
-    <a href="#"><strong>Home</strong></a>
-    <a href="#"><strong>Story</strong></a>
-    <a href="#"><strong>Contact</strong></a>
+    <a href="#home"><strong>HOME</strong></a>
+    <a href="#story"><strong>STORY</strong></a>
+    <a href="#contact"><strong>CONTACT</strong></a>
 </nav> 
 <main>
-    <img src="image/lone-starfish.jpg" alt="Starfish" width="300" title="Starfish" id="starfish-1">
-<article>
-<p>    
+<article id="story">
     <h2>Life of a Starfish</h2>
-    Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.
-    </p>
- </article>
+    <img src="image/lone-starfish.jpg" alt="Starfish" width="220" title="Starfish" id="starfish-1">
+    <span>  
+Starfish or sea stars are star-shaped echinoderms belonging to the class Asteroidea. Common usage frequently finds these names being also applied to ophiuroids, which are correctly referred to as brittle stars or basket stars. Starfish are also known as Asteroids due to being in the class Asteroidea. About 1,900 species of starfish occur on the seabed in all the world's oceans, from the tropics to frigid polar waters. They are found from the intertidal zone down to abyssal depths, 6,000 m (20,000 ft) below the surface.
+Starfish are marine invertebrates. They typically have a central disc and usually five arms, though some species have a larger number of arms. The aboral or upper surface may be smooth, granular or spiny, and is covered with overlapping plates. Many species are brightly coloured in various shades of red or orange, while others are blue, grey or brown. Starfish have tube feet operated by a hydraulic system and a mouth at the centre of the oral or lower surface. They are opportunistic feeders and are mostly predators on benthic invertebrates. Several species have specialized feeding behaviours including eversion of their stomachs and suspension feeding. They have complex life cycles and can reproduce both sexually and asexually. Most can regenerate damaged parts or lost arms and they can shed arms as a means of defense. The Asteroidea occupy several significant ecological roles. Starfish, such as the ochre sea star (Pisaster ochraceus) and the reef sea star (Stichaster australis), have become widely known as examples of the keystone species concept in ecology. The tropical crown-of-thorns starfish (Acanthaster planci) is a voracious predator of coral throughout the Indo-Pacific region, and the northern Pacific sea star is considered to be one of the world's 100 worst invasive species.
+The fossil record for starfish is ancient, dating back to the Ordovician around 450 million years ago, but it is rather sparse, as starfish tend to disintegrate after death. Only the ossicles and spines of the animal are likely to be preserved, making remains hard to locate. With their appealing symmetrical shape, starfish have played a part in literature, legend, design and popular culture. They are sometimes collected as curios, used in design or as logos, and in some cultures, despite possible toxicity, they are eaten.
+    <cite>(Wikipedia, 2021)</cite>
+    <a href="https://en.wikipedia.org/wiki/Starfish" target="blank"><sup>1<sup></a>
+</span>   
+</article>
  <article>   
-    <h2>Facts About Starfish</h2>
+    <h3>Facts About Starfish</h3>
     <ul>
-    <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
-    <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
-    <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.  </li>
-    <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.  </li>
+    <li>The scientific name Asteroidea was given to starfish by the French zoologist de Blainville in 1830.</li>
+    <li>Starfish are in some cases taken from their habitat and sold to tourists as souvenirs, ornaments, curios or for display in aquariums.</li>
+    <li>With its multiple arms, the starfish provides a popular metaphor for computer networks, companies and software tools.</li>
+    <li>Starfish also have an unusual ability to expel foreign objects from their bodies, which makes them difficult to tag for research tracking purposes. </li>
     </ul>
 </article>
-<article>
-  <h2>Contact us to learn more</h2>  
-  <p class="contact-page">
-    Your Name
-    Your Email
-    Your Message
-    Would you like to visit the starfish
-    Send  
-    <a href="https://en.wikipedia.org/wiki/Starfish"><strong>Starfish Wiki</strong></a>
-  </p>
+<article id="contact"> 
+    <h2>Contact to learn more</h2> 
+
+    <form class="contact-page" action="index.html" method="GET">
+<fieldset>
+    <label for="username">Your Name: </label>
+    <input id="username" type="text">
+</fieldset>
+<fieldset>
+    <label for="@Email">Your Email </label>
+    <input id="@Email" type="text">
+</fieldset>
+<fieldset>
+    <label for="info">Your Message </label>
+    <textarea id="info" name="info"></textarea>
+</fieldset> 
+    <p class="question">Would you like to visit the starfish?</p>
+<fieldset>
+    <label for="yes">Yes</label>
+    <input type="radio" id="yes"  name="Starfish">
+    <label for="no">No</label>
+    <input type="radio" id="no"  name="Starfish">
+    <label for="no">Maybe</label>
+    <input type="radio" id="maybe"  name="Starfish">
+</fieldset>
+<fieldset>
+    <button type="submit" name="Submit">Send</button>
+</fieldset>
+</form>
+
+</section>  
 </article>
 </main>
 <footer>
     <p><strong><small>&copy; Copyright Victoria Rodgers 2021. All Rights Reserved</small>.</strong></p>
     <p><small><sup>*</sup>Note: This webpage was created within the bounds of the course MTM6130_020 at Algonquin College.</small></p>
 </footer>
+</div>
 </body>
 </html>
