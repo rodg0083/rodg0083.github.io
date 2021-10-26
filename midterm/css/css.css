@@ -111,7 +111,7 @@ img{
 }
 footer{
     text-align: right; /*Positioning the footer to the right side*/
-    padding: 10px; /*Adding padding all around the text*/
+    padding: 30px; /*Adding padding all around the text*/
 }
 article{
     padding-right:10px; /*Adding padding to the sides of the text*/
