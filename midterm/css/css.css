@@ -49,101 +49,184 @@ table {
 /*___________________________________________________________________________________________
                                     Start of Website
 _____________________________________________________________________________________________*/
-html{
-    background-color: #AAD4CF; /*Colour of the background*/
-    text-align: left; /*All text on the page will be starting from the left*/
-    color: black; /*The volour of the text will be black*/
+
+html {
+	background-color: #AAD4CF;
+	/*Colour of the background*/
+	text-align: left;
+	/*All text on the page will be starting from the left*/
+	color: black;
+	/*The volour of the text will be black*/
 }
-h1{
-    text-align: center; /*Header is centered in the middle of the page*/
-    font-size: 56px; /*Font size of the header*/
-    color: white; /*White font*/
-    background-image: url("../image/lone-starfish-wide.jpg"); /* Adding a starfish picture as background for the header content*/
-    background-repeat: no-repeat; /*The background image will not repeat*/
-    background-size: cover; /*The image will cover the */
-    background-position: bottom 5px center; /*Positioning of the background image behind the text*/
-    padding-bottom: 90px; /*Adding to the bottom positions the header slightly above the navigation*/
-    padding-top: 180px; /*Adding padding to the top also helps position the header on the image*/
+
+h1 {
+	text-align: center;
+	/*Header is centered in the middle of the page*/
+	font-size: 56px;
+	/*Font size of the header*/
+	color: white;
+	/*White font*/
+	background-image: url("../image/lone-starfish-wide.jpg");
+	/* Adding a starfish picture as background for the header content*/
+	background-repeat: no-repeat;
+	/*The background image will not repeat*/
+	background-size: cover;
+	/*The image will cover the */
+	background-position: bottom 5px center;
+	/*Positioning of the background image behind the text*/
+	padding-bottom: 90px;
+	/*Adding to the bottom positions the header slightly above the navigation*/
+	padding-top: 180px;
+	/*Adding padding to the top also helps position the header on the image*/
 }
-h2{
-    margin-top: 30px; /*Positions the second header above the image*/
-    font-size: 1.7rem; /*Increases the size of the second header*/
-    font-weight: bold; /*Bold the title*/
-    padding: 10px 0px 20px 0px; /*Padding*/
+
+body {
+	font-size: 14px;
+	/*Font size of all content on the webpage*/
+	background-color: #D4E9E7;
+	/*White background colour*/
+	max-width: 900px;
+	/*The maximum width of the content of the webpage - it will stay this size even on a bigger screen*/
+	margin: auto;
+	/*Automatic margins*/
+	font-family: Arial, Helvetica, sans-serif;
+	/*Setting on the font type for this section of text*/
+	line-height: 130%;
+	/*Shortening the height between lines of text*/
 }
-h3{
-    font-size: 1.7rem; /*Increases the size of the second header*/
-    font-weight: bold; /*Bold the title*/
-    padding-top: 30px; /*Padding*/
+
+h2 {
+	margin-top: 30px;
+	/*Positions the second header above the image*/
+	font-size: 1.7rem;
+	/*Increases the size of the second header*/
+	font-weight: bold;
+	/*Bold the title*/
+	padding: 10px 0px 20px 0px;
+	/*Padding*/
 }
-body{
-    font-size: 14px; /*Font size of all content on the webpage*/
-    background-color: #D4E9E7; /*White background colour*/
-    max-width: 900px; /*The maximum width of the content of the webpage - it will stay this size even on a bigger screen*/
-    margin: auto; /*Automatic margins*/
-    font-family:Arial, Helvetica, sans-serif; /*Setting on the font type for this section of text*/
-    line-height: 130%; /*Shortening the height between lines of text*/
+
+h3 {
+	font-size: 1.7rem;
+	/*Increases the size of the second header*/
+	font-weight: bold;
+	/*Bold the title*/
+	padding-top: 30px;
+	/*Padding*/
 }
-img{
-    float: left; /*Places the image on the left and allows the text to wrap around*/
-    margin-right: 15px; /*Positioning of the starfish image*/
+
+img {
+	float: left;
+	/*Places the image on the left and allows the text to wrap around*/
+	margin-right: 15px;
+	/*Positioning of the starfish image*/
 }
-.navbar{
-    top: 0; /*Navigation is positioned at the top of the page*/
-    width: 100%; /* Full width */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*Setting on the font type for this section of text*/
-    text-align: center; /*Text in the navigation is centered*/
-    font-size: 25px; /*Font size is increased for the navigation*/
-    overflow: hidden; /*Overflow of content is hidden*/
-    margin:auto; /*Automatic margins*/
+
+.navbar {
+	top: 0;
+	/*Navigation is positioned at the top of the page*/
+	width: 100%;
+	/* Full width */
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	/*Setting on the font type for this section of text*/
+	text-align: center;
+	/*Text in the navigation is centered*/
+	font-size: 25px;
+	/*Font size is increased for the navigation*/
+	overflow: hidden;
+	/*Overflow of content is hidden*/
+	margin: auto;
+	/*Automatic margins*/
 }
-.navbar a{
-   float: left; /*Places the navigation on the left*/
-   color:black; /*Colour of the text*/
-   padding: 10px; /*initial padding all around the navigation*/
-   padding-left: 11.97%; /*Adding padding on both sides to position the nav in the center*/
-   padding-right: 11.97%; /*Adding padding on both sides to position the nav in the center*/
-   text-decoration: none;  /*Removes the lines at the bottom of the text*/
-   border-right: 2px solid rgb(0, 0, 0); /*Black border*/
+
+.navbar a {
+	float: left;
+	/*Places the navigation on the left*/
+	color: black;
+	/*Colour of the text*/
+	padding: 10px;
+	/*initial padding all around the navigation*/
+	padding-left: 11.97%;
+	/*Adding padding on both sides to position the nav in the center*/
+	padding-right: 11.97%;
+	/*Adding padding on both sides to position the nav in the center*/
+	text-decoration: none;
+	/*Removes the lines at the bottom of the text*/
+	border-right: 2px solid rgb(0, 0, 0);
+	/*Black border*/
 }
-.navbar a:last-child{
-    border-right: none; /*Removing the right-most black bar on the navigation*/
+
+.navbar a:last-child {
+	border-right: none;
+	/*Removing the right-most black bar on the navigation*/
 }
-footer{
-    text-align: right; /*Positioning the footer to the right side*/
-    padding: 30px; /*Adding padding all around the text*/
+
+article {
+	padding-right: 10px;
+	/*Adding padding to the sides of the text*/
+	padding-left: 10px;
+	/*Adding padding to the sides of the text*/
 }
-article{
-    padding-right:10px; /*Adding padding to the sides of the text*/
-    padding-left:10px; /*Adding padding to the sides of the text*/
+
+.contact-page {
+	border: 2px solid rgb(0, 0, 0);
+	/*Black border*/
+	padding: 30px 15px;
+	/* Padding */
+	font-size: 130%;
+	/*Automatic margins*/
 }
-.contact-page{
-    border: 2px solid rgb(0, 0, 0); /*Black border*/
-    padding: 30px 15px; /* Padding */
-    font-size: 130%; /*Automatic margins*/
+
+button {
+	font-size: 12px;
+	/*Font size of text in the button*/
+	margin-top: 20px;
+	/*Margin at the top */
+	padding: 12px 16px;
+	/* Padding */
+	cursor: pointer;
+	/*The cursor of the mouse changes when it hovers over the button*/
+	background-color: #D4E9E7;
+	border: 2px solid rgb(0, 0, 0);
+	/*Black border*/
 }
-button{
-    font-size: 12px; /*Font size of text in the button*/
-    margin-top: 20px; /*Margin at the top */
-    padding: 12px 16px; /* Padding */
-    cursor: pointer; /*The cursor of the mouse changes when it hovers over the button*/
-    background-color: #D4E9E7;
-    border: 2px solid rgb(0, 0, 0); /*Black border*/
+
+input[type=text],
+select,
+textarea {
+	/*Styling the information boxes*/
+	width: 100%;
+	/* Full width */
+	padding: 3px;
+	/* Padding */
+	border: 1px solid #ccc;
+	/* Gray border */
+	box-sizing: border-box;
+	/* Makes sure that the padding and width stays in place */
+	margin-top: 6px;
+	/* Margin at the top */
+	margin-bottom: 16px;
+	/* Margin at the bottom */
+	resize: vertical/* Allow the user to vertically resize the textarea only*/
 }
-input[type=text], select, textarea { /*Styling the information boxes*/
-    width: 100%; /* Full width */
-    padding: 3px; /* Padding */
-    border: 1px solid #ccc; /* Gray border */
-    box-sizing: border-box; /* Makes sure that the padding and width stays in place */
-    margin-top: 6px; /* Margin at the top */
-    margin-bottom: 16px; /* Margin at the bottom */
-    resize: vertical /* Allow the user to vertically resize the textarea only*/
+
+.question {
+	padding-bottom: 20px;
+	/*Adding space bwtween the last question and the multiple choice answer*/
 }
-  .question{
-    padding-bottom:20px; /*Adding space bwtween the last question and the multiple choice answer*/
-}
+
 ul {
-  list-style-position: outside; /* Positions the bullets outside the container */
-  list-style-type:disc; /*Styling the bullet points to be a full circle*/
-  margin: 15px; /*Adding a margin to position the list*/
+	list-style-position: outside;
+	/* Positions the bullets outside the container */
+	list-style-type: disc;
+	/*Styling the bullet points to be a full circle*/
+	margin: 15px;
+	/*Adding a margin to position the list*/
+}
+
+footer {
+	text-align: right;
+	/*Positioning the footer to the right side*/
+	padding: 30px;
+	/*Adding padding all around the text*/
 }
