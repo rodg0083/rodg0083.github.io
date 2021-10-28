@@ -120,6 +120,8 @@ img {
 	/*Places the image on the left and allows the text to wrap around*/
 	margin-right: 15px;
 	/*Positioning of the starfish image*/
+	margin-bottom: 20px;
+	/*Positioning of the starfish image*/
 }
 
 .navbar {
