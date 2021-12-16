@@ -1,5 +1,249 @@
-<html>
- <p> Welcome to my test github pages site</p>
+<!doctype html>
+<!-- Set language to english -->
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <!-- add equiv meta to make it more compatible with certain browsers -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- add viewport meta so all devices will scale to full width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Three Star Media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <!-- add icon stylesheet file for used icons -->
+    <link href="CSS/icons.css" rel="stylesheet">    
+    <!-- add css stylesheet -->
+    <link href="CSS/design.css" rel="stylesheet">
 
+</head>
+
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <!-- add divs to place the content into containers -->
+            <div class="menucheck">
+            <div class="image-logo">
+                <!-- logo image -->
+            <img src="images/logo.png" alt="Logo">   
+                </div>   
+            </div>       
+            <ul>
+                <!-- added seperate container for home to change in css -->
+                <li><a class="navtop" href="#home">Home </a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- add search bar and seach button with magnify glass icon -->
+                <li> 
+                    <form class="search-container" action="index.html" method="post" >
+                      <input class="searchbar" type="text" placeholder="Search" name="search"> 
+                      <button type="submit" name="search"><i class="icon icon-zoom"></i></button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+<!-- Header -->
+    <header id="home">
+    <div class="main1">
+<!-- added multiple divs to put the welcome message over the background image -->
+        <div class="bannerbox">
+            <!-- Main banner image -->
+            <img src="images/main-banner.jpg" alt="Main banner" class="mainimage">
+                <div class="welcome-message">
+                <h1>Welcome to Three Star Media</h1>
+                <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu elit eget lectus vestibulum rutrum sit amet sodales sapien! Nam eu massa sed tortor rhoncus egestas eget vel enim!</span>
+            <!-- added a black arrow icon to the button-->    
+                <p><input class="connectbutton" type="submit" name="connect" id="connect" value="Connect with us &#9654;"></p>        
+            </div>  
+        </div>
+<!-- added both the "header" and "about us" in the same containers to match asthetic of the png demo -->
+        <div class="aboutbox">
+            <!-- About us image -->
+                <img class="aboutimage" src="images/about-us.jpg" alt="About Us &#9654;">
+            <div id="about" class="about-us">
+            <h3 class="abouttitle">About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in dolor sed dui pretium lacinia eget eget justo. Etiam in tristique neque, non rutrum orci?</p>
+            <p>Vestibulum consectetur sollicitudin fermentum. Nulla facilisi? Quisque tempus pharetra augue at viverra. Donec malesuada maximus velit sit amet aliquam.</p>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <main>
+        <!-- added articles to divide content into sections to add more containers to use in css -->
+    <article id="services">
+            <h2>Our Services</h2>  
+        <div class="services">
+    <!-- added images in a box with text -->
+        <div class="digitalbox">
+            <!-- digital image -->
+                  <img src="images/digital.jpg" alt="Digital">
+            <div class="texts">
+                <!-- added a seperate container just for the text and button in the general container for the content of this segment -->
+            <h3>Digital Transformation</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit aliquam elit eu convallis. Nullam id lacinia justo. Etiam at mi imperdiet, fermentum odio non, mollis velit?</span>
+            <!-- added a black arrow icon to the button-->
+            <p><input class="planbuttons" type="submit" name="digital" id="digital" value="Digital Plans &#9654;"></p>
+            
+        </div>
+        </div>
+
+        <div class="marketingbox">
+            <!-- marketing image -->
+                <img src="images/marketing.jpg" alt="Marketing">
+            <div class="texts">
+                <!-- added a seperate container just for the text and button in the general container for the content of this segment -->
+            <h3>Marketing</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pellentesque nisl vel ante pulvinar interdum a et lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus?</span>
+            <!-- added a black arrow icon to the button-->
+            <p><input class="planbuttons" type="submit" name="marketing" id="marketing" value="Marketing Plans &#9654;"></p>
+        </div>
+        </div>
+
+        <div class="videobox">
+            <!-- video image -->
+                <img src="images/video.jpg" alt="Video">
+            <div class="texts">
+                <!-- added a seperate container just for the text and button in the general container for the content of this segment -->
+            <h3>Video Production</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit aliquam elit eu convallis. Nullam id lacinia justo. Etiam at mi imperdiet, fermentum odio non, mollis velit?</span>
+            <!-- added a black arrow icon to the button-->
+            <p><input class="planbuttons" type="submit" name="video" id="video" value="Video Plans &#9654;"></p>
+        </div>
+        </div>
+
+        <div class="webbox">
+            <!-- web image -->
+                <img src="images/web.jpg" alt="Web">
+            <div class="texts">
+                <!-- added a seperate container just for the text and button in the general container for the content of this segment -->
+            <h3>Web Development</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit aliquam elit eu convallis. Nullam id lacinia justo. Etiam at mi imperdiet, fermentum odio non, in mollis velit?</span>
+            <!-- added a black arrow icon to the button-->
+            <p><input class="planbuttons" type="submit" name="web" id="web" value="Web Plans &#9654;"></p>
+        </div>
+        </div>
+
+        <div class="printbox">
+            <!-- print image -->
+                <img src="images/print.jpg" alt="Print">
+            <div class="texts">
+                <!-- added a seperate container just for the text and button in the general container for the content of this segment -->
+            <h3>Print</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit aliquam elit eu convallis. Nullam id lacinia justo. Etiam at mi imperdiet, fermentum odio non, mollis velit?</span>
+            <!-- added a black arrow icon to the button-->
+            <p><input class="planbuttons" type="submit" name="print" id="print" value="Print Plans &#9654;"></p>
+        </div>
+        </div>
+    </div>
+    </article>
+    <!-- added articles to divide content into sections to add more containers to use in css -->
+                <!-- added multiple divs to put the vision message over the background image -->
+    <article id="vision">
+                <div class="visionbox">
+                    <div class="visiontext">
+                <!-- added a seperate container just for the text and button in the general container for the content of this segment -->
+                <h3>Our Vision</h3>
+            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor eu lectus vel aliquet. Duis ac metus leo. Praesent bibendum sit amet risus sed accumsan. Integer consequat varius ornare. Vestibulum non porta nibh, sit amet congue urna.</p>
+            <!-- added a black arrow icon to the button-->
+            
+            <p><input class="visionbutton" type="submit" name="learn" id="learn" value="Learn More &#9654;"></p>
+        </div>
+    </div>
+    </article>
+<!-- added articles to divide content into sections to add more containers to use in css -->
+    <article id="team">
+            <h2>Our Team</h2>
+
+        <div class="team1">
+            <!-- John Doe image -->
+                <img src="images/john.jpg" alt="John Doe" class="john">
+            <!-- div container for the text and image of John Doe-->
+            <div class="teamtext">
+            <h3>John Doe</h3>
+            <h4>CEO and Co-owner</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus odio eros, quis ultricies sapien posuere at. Pellentesque vitae nibh aliquet, tincidunt diam id, porttitor augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>
+        </div>
+        </div>
+
+        <div class="team2">
+            <!-- Bob Rite image -->
+                 <img src="images/bob.jpg" alt="Bob Rite" class="bob">
+            <!-- div container for the text and image of Bob Rite-->
+            <div class="teamtext">
+            <h3>Bob Rite</h3>
+            <h4>CFO and Co-owner</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus odio eros, quis ultricies sapien posuere at. Pellentesque vitae nibh aliquet, tincidunt diam id, porttitor augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>                
+            </div>
+        </div>
+    </article>
+           
+<!-- added articles to divide content into sections to add more containers to use in css -->
+        <article id="contact"> 
+            <h2 class="contact-us">Contact Us</h2> 
+        <div class="contact-page">  
+            <!-- sending the viewer back to the top of the index page after submitting the form-->
+            <!-- posting the information from the form to the index page-->
+            <form action="index.html" method="post">
+                <h3>Send us a message</h3>
+                <div class="formbox">
+            <!-- Contact page form -->
+                <label for="username">Your Name</label>
+                <input type="text" id="username" name="username">
+
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="email">
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" style="height:200px"></textarea>    
+        </div>
+            <!-- added a submit button -->
+            <input class="sendbutton" type="submit" name="submit" id="submit" value="Send">
+            </form>
+        </div>
+        <!-- added a div container for the hours of operation content-->
+        <div class="hours">
+            <!-- added table with the hours of operation -->
+            <h3>Hours of operation</h3>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Monday - Friday</td>
+                        <td>9 AM - 6 PM</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday - Sunday</td>
+                        <td>Closed</td>
+                      </tr>
+                    </tbody>
+                  </table>
+        </div>
+        <div class="location">
+            <!-- added a div container for the google map-->
+           <h3>Location</h3> 
+           <!-- add google map -->
+           <div class="mapembed">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9445518045395!2d-75.75712548419932!3d45.3499315490813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1637855127682!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+        </article>
+    </main>
+<!-- added copyright-->
+        <footer>
+            <p><small>&copy; Copyright Three Star Media, 2020</small></p>
+            <p><small>All images are taken from <ins>Unsplash</ins></small></p>
+        </footer>
+    </div>
+</body>
 </html>
+<!-- End of code-->        
