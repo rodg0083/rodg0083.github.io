@@ -333,24 +333,37 @@ h4 {
 }
 
 .visionbox {
-    /*setting the position to absolute*/ 
-	position: absolute;
-    /*changing the position of the container to be near the top*/
-	top: 5%;
-    /*background image;*/
+		    /*background image;*/
 	background-image: url("../images/vision.jpg");
     /*changing the background position and background size to make sure the image always covers the div and doesn't repeat */
     background-position: center center;
     background-size: cover;
-    /*setting the colour of the text*/
-    color: white;
-    /*adding padding*/
-    padding: 15px; 
+	/*setting the position to relative*/ 
+		position: absolute;
+		/*setting the position to the top of the container*/ 
+        top:0;
+        /*setting the height of the image*/
+        height: 100%;
+        /* used right and left to position this element in the center of its container */
+        left: 50%;
+        right: 50%;
+        /* adding margins to the left right and bottom*/
+        margin-left: -50vw;
+        margin-right: -50vw;
+         /* set the width to be the width of the browser window */
+         width:100vw;
+    	/* set a negative z-index (or layer) to put this behind your content */
+    	z-index: -1;
+		
+
+    
 
 }
 .visiontext {
-    /*setting the max-width of the text container*/ 
-     max-width: 1150px;
+    /*setting the max-width of the text container*/
+	 padding: 15px;     
+	 /*setting the colour of the text*/
+    color: white;
 }
 .visionbutton {
     /*adding padding*/
@@ -507,15 +520,16 @@ ________________________________________________________________________________
     
 	nav{
 	/*reset the padding on the nav*/ 
+	position: relative;
 	padding: 0;
 	}
     .backnav {
 		/*setting the position to relative*/ 
-		position: relative;
+		position: absolute;
 		/*setting the position to the top of the container*/ 
         top:0;
         /*setting the height of the image*/
-        height:64.5%;
+        height: 100%;
         /* used right and left to position this element in the center of its container */
         left: 50%;
         right: 50%;
@@ -526,8 +540,8 @@ ________________________________________________________________________________
          width:100vw;
         /*setting the background colour of the nav*/ 
 	    background-color: #222;
-		/*adding padding to center the nav*/ 
-		padding-left: 37%;
+    	/* set a negative z-index (or layer) to put this behind your content */
+    	z-index: -1;
     }
     li a {
         /*float the nav list to the left*/ 
@@ -595,12 +609,15 @@ ________________________________________________________________________________
     .aboutbox {
         /*using flex to set the container*/
         display: flex;
+		position: relative;
+	}
+	.backabout{
 				/*setting the position to relative*/ 
-				position: relative;
+				position: absolute;
 				/*setting the position to the top of the container*/ 
 				top:0;
 				/*setting the height of the image*/
-				height:64.5%;
+				height: 100%;
 				/* used right and left to position this element in the center of its container */
 				left: 50%;
 				right: 50%;
@@ -609,11 +626,15 @@ ________________________________________________________________________________
 				margin-right: -50vw;
 				 /* set the width to be the width of the browser window */
 				 width:100vw;
-				/*adding padding to center the nav*/ 
-				padding-left: 37%;
+				 padding:0; 
+		    	/* set a negative z-index (or layer) to put this behind your content */
+				z-index: -1;	
+				background-color: #ffe6ac;
+					 
     }
 
     .about-us {
+		position: relative;
         /*changing the direction of about us container - reversing the image and text*/ 
         flex-direction: row-reverse;
         /*adding padding left and right*/
@@ -703,34 +724,7 @@ ________________________________________________________________________________
         /*setting the font size of button text*/
         font-size: 20px;
     }
-    .visionbox {
-		/*setting the position to relative*/ 
-		position: relative;
-		/*setting the position to the top of the container*/ 
-        top:0;
-        /*setting the height of the image*/
-        height: 80%;
-        /* used right and left to position this element in the center of its container */
-        left: 50%;
-        right: 50%;
-        /* adding margins to the left right and bottom*/
-        margin-left: -50vw;
-        margin-right: -50vw;
-         /* set the width to be the width of the browser window */
-         width:100vw;
-        /*setting the background colour of the nav*/ 
-	    background-color: #222;
-		/*adding padding to center the nav*/ 
-		padding-left: 34%;
-		/*adding margin to the top*/
-		margin-top: 20px;
-    }
-    .visiontext{
-        /*adding margins to the left*/
-        margin-left: 150px;
-		margin-right: 20px;
-    } 
-    
+
     .team1 {
         /*setting the display of the container to flex*/
         display: flex;
@@ -798,8 +792,8 @@ ________________________________________________________________________________
         font-size: 20px;
     }
 	.backfooter{
-				/*setting the position to relative*/ 
-				position: relative;
+				/*setting the position to absolute*/ 
+				position: absolute;
 				/*setting the height of the image*/
 				height: 100%;
 				/* used right and left to position this element in the center of its container */
@@ -812,14 +806,12 @@ ________________________________________________________________________________
 				 width:100vw;
 				/*setting the background colour of the nav*/ 
 				background-color: #222;
-				/*adding padding to center the nav*/ 
-				padding-left: 45%;
-				/*adding margin to the top*/
-				margin-top: 20px;
-				/*adding a border around the text of the footer*/
-				border: 25px solid #222;
+		    	/* set a negative z-index (or layer) to put this behind your content */
+				z-index: -1;
 	}
 	footer{
+		/*setting the position to relative*/ 
+		position: relative;
 		/*resetting the padding*/
 		padding: 0;
 	}
