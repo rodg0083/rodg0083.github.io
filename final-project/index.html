@@ -1,826 +1,253 @@
-/*___________________________________________________________________________________________
-                                    CSS Reset
-_____________________________________________________________________________________________*/
+<!doctype html>
+<!-- Set language to english -->
+<html lang="en">
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+<head>
+    <meta charset="utf-8">
+    <!-- add equiv meta to make it more compatible with certain browsers -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- add viewport meta so all devices will scale to full width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Three Star Media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <!-- add icon stylesheet file for used icons -->
+    <link href="CSS/icons.css" rel="stylesheet">    
+    <!-- add css stylesheet -->
+    <link href="CSS/design.css" rel="stylesheet">
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+</head>
 
-/* HTML5 display-role reset for older browsers */
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav>
+            <div class="backnav">
+            <!-- add divs to place the content into containers -->
+            <div class="menucheck">
+            <div class="image-logo">
+                <!-- logo image -->
+            <img src="images/logo.png" alt="Logo">   
+                </div>   
+            </div>       
+            <ul>
+                <!-- added seperate container for home to change in css -->
+                <li><a class="navtop" href="#home">Home </a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- add search bar and seach button with magnify glass icon -->
+                <li> 
+                    <form class="search-container" action="index.html" method="post" >
+                      <input class="searchbar" type="text" placeholder="Search" name="search"> 
+                      <button type="submit" name="search"><i class="icon icon-zoom"></i></button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        </nav>
+<!-- Header -->
+    <header id="home">
+    <div class="main1">
+<!-- added multiple divs to put the welcome message over the background image -->
+        <div class="bannerbox">
+            <!-- Main banner image -->
+            <img src="images/main-banner.jpg" alt="Main banner" class="mainimage">
+                <div class="welcome-message">
+                <h1>Welcome to Three Star Media</h1>
+                <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu elit eget lectus vestibulum rutrum sit amet sodales sapien! Nam eu massa sed tortor rhoncus egestas eget vel enim!</span>
+            <!-- added a black arrow icon to the button-->    
+                <p><input class="connectbutton" type="submit" name="connect" id="connect" value="Connect with us &#9654;"></p>        
+            </div>  
+        </div>
+<!-- added both the "header" and "about us" in the same containers to match asthetic of the png demo -->
+        <div class="aboutbox">
+            <!-- About us image -->
+                <img class="aboutimage" src="images/about-us.jpg" alt="About Us &#9654;">
+            <div id="about" class="about-us">
+            <h3 class="abouttitle">About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in dolor sed dui pretium lacinia eget eget justo. Etiam in tristique neque, non rutrum orci?</p>
+            <p>Vestibulum consectetur sollicitudin fermentum. Nulla facilisi? Quisque tempus pharetra augue at viverra. Donec malesuada maximus velit sit amet aliquam.</p>
+            </div>
+        </div>
+    </div>
+    </header>
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-	display: block;
-}
+    <main>
+        <!-- added articles to divide content into sections to add more containers to use in css -->
+    <article id="services">
+            <h2>Our Services</h2>  
+        <div class="services">
+    <!-- added images in a box with text -->
+        <div class="digitalbox">
+            <!-- digital image -->
+                  <img src="images/digital.jpg" alt="Digital">
+            <div class="texts">
+                <!-- added a seperate container just for the text and button in the general container for the content of this segment -->
+            <h3>Digital Transformation</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit aliquam elit eu convallis. Nullam id lacinia justo. Etiam at mi imperdiet, fermentum odio non, mollis velit?</span>
+            <!-- added a black arrow icon to the button-->
+            <p><input class="planbuttons" type="submit" name="digital" id="digital" value="Digital Plans &#9654;"></p>
+            
+        </div>
+        </div>
 
-body {
-	line-height: 1;
-}
+        <div class="marketingbox">
+            <!-- marketing image -->
+                <img src="images/marketing.jpg" alt="Marketing">
+            <div class="texts">
+                <!-- added a seperate container just for the text and button in the general container for the content of this segment -->
+            <h3>Marketing</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pellentesque nisl vel ante pulvinar interdum a et lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus?</span>
+            <!-- added a black arrow icon to the button-->
+            <p><input class="planbuttons" type="submit" name="marketing" id="marketing" value="Marketing Plans &#9654;"></p>
+        </div>
+        </div>
 
-ol,
-ul {
-	list-style: none;
-}
+        <div class="videobox">
+            <!-- video image -->
+                <img src="images/video.jpg" alt="Video">
+            <div class="texts">
+                <!-- added a seperate container just for the text and button in the general container for the content of this segment -->
+            <h3>Video Production</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit aliquam elit eu convallis. Nullam id lacinia justo. Etiam at mi imperdiet, fermentum odio non, mollis velit?</span>
+            <!-- added a black arrow icon to the button-->
+            <p><input class="planbuttons" type="submit" name="video" id="video" value="Video Plans &#9654;"></p>
+        </div>
+        </div>
 
-blockquote,
-q {
-	quotes: none;
-}
+        <div class="webbox">
+            <!-- web image -->
+                <img src="images/web.jpg" alt="Web">
+            <div class="texts">
+                <!-- added a seperate container just for the text and button in the general container for the content of this segment -->
+            <h3>Web Development</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit aliquam elit eu convallis. Nullam id lacinia justo. Etiam at mi imperdiet, fermentum odio non, in mollis velit?</span>
+            <!-- added a black arrow icon to the button-->
+            <p><input class="planbuttons" type="submit" name="web" id="web" value="Web Plans &#9654;"></p>
+        </div>
+        </div>
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-	content: '';
-	content: none;
-}
+        <div class="printbox">
+            <!-- print image -->
+                <img src="images/print.jpg" alt="Print">
+            <div class="texts">
+                <!-- added a seperate container just for the text and button in the general container for the content of this segment -->
+            <h3>Print</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit aliquam elit eu convallis. Nullam id lacinia justo. Etiam at mi imperdiet, fermentum odio non, mollis velit?</span>
+            <!-- added a black arrow icon to the button-->
+            <p><input class="planbuttons" type="submit" name="print" id="print" value="Print Plans &#9654;"></p>
+        </div>
+        </div>
+    </div>
+    </article>
+    <!-- added articles to divide content into sections to add more containers to use in css -->
+                <!-- added multiple divs to put the vision message over the background image -->
+    <article id="vision">
+                <div class="visionbox">
+                    <div class="visiontext">
+                <!-- added a seperate container just for the text and button in the general container for the content of this segment -->
+                <h3>Our Vision</h3>
+            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor eu lectus vel aliquet. Duis ac metus leo. Praesent bibendum sit amet risus sed accumsan. Integer consequat varius ornare. Vestibulum non porta nibh, sit amet congue urna.</p>
+            <!-- added a black arrow icon to the button-->
+            
+            <p><input class="visionbutton" type="submit" name="learn" id="learn" value="Learn More &#9654;"></p>
+        </div>
+    </div>
+    </article>
+<!-- added articles to divide content into sections to add more containers to use in css -->
+    <article id="team">
+            <h2>Our Team</h2>
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+        <div class="team1">
+            <!-- John Doe image -->
+                <img src="images/john.jpg" alt="John Doe" class="john">
+            <!-- div container for the text and image of John Doe-->
+            <div class="teamtext">
+            <h3>John Doe</h3>
+            <h4>CEO and Co-owner</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus odio eros, quis ultricies sapien posuere at. Pellentesque vitae nibh aliquet, tincidunt diam id, porttitor augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>
+        </div>
+        </div>
 
-/*___________________________________________________________________________________________
-                                    Mobile First
-_____________________________________________________________________________________________*/
-html {
-    /*Setting the base font size for the website*/ 
-	font-size: 16px;
-    /*Setting the font family and type*/ 
-	font-family: 'Open Sans', serif; 
-    /*Setting the line spacing for the website text*/ 
-	line-height: 2.5rem;
-}
-.container {    
-    /*margin of 0 on the top and bottom and "automatic" on the left and right*/
-	margin: 0 auto;
-    /*Setting the max and min width of the site*/ 
-	max-width: 1200px;
-	min-width: 760px;
-}
-h1 {
-	/*setting the font size*/ 
-    font-size: 5em;
-    /*setting the font weight*/ 
-	font-weight: bolder;
-    /*adding padding*/ 
-	padding: 8px 0;
-    /*setting the colour of the text*/ 
-	color: white;
-	padding-top: 50px;
-    /*setting the line height for the h1 welcome message*/ 
-	line-height: 1.5em;
-}
-nav {
-    /*setting the background colour of the nav*/ 
-	background-color: #222;
-    /*adding padding*/
-	padding: 10px;
-}
-ul {
-    /*removing the bullets of the list*/
-	list-style-type: none;
-    /*aligning the text in the center of the container*/ 
-	text-align: center;
-    /* adding the background colour to the list items*/
-	background-color: #222;
-    /*resetting margins*/
-	margin: 0;
-}
-li a {
-    /*setting the display to block*/
-	display: block;
-    /* removing text decorations*/
-	text-decoration: none;
-    /*adding padding*/
-	padding: 1em;
-    /* setting the colour of the nav text */
-	color: #c78c06;
-}
-.navtop {
-    /*setting the background colour of home*/ 
-	background-color: #c78c06;
-    /* setting the colour of home */
-	color: #222;
-}
-.menucheck {
-    /*setting the background colour*/ 
-	background-color: #c78c06;
-    /*adding padding*/
-	padding-bottom: 30px;
-}
-form.search-container input[type=text] {
-    /*adding padding*/
-	padding: 10px;
-    /* setting the font size for the search container*/
-	font-size: 17px;
-    /* adding a border*/
-	border: 1px solid gray;
-    /* float the searchbar to the left*/
-	float: left;
-    /* setting the width of the searchbar*/
-	width: 94%;
-    /* setting the background*/
-	background: white;
-}
-form.search-container button {
-    /*float the search button to the left next to the searchbar*/ 
-	float: left;
-    /*adding padding*/
-	padding: 10px;
-    /* setting the background colour*/
-	background: #222;
-    /* setting the colour of the icon gold*/
-	color: #c78c06;
-    /* setting the font size*/
-	font-size: 17px;
-    /* adding a border*/
-	border: 1px solid #c78c06;
-    /* removing the left boarder*/
-	border-left: none;
-    /* changing the cursor into a pointer when cursor hovers over the button*/
-	cursor: pointer;
-    /*adding margins to the top*/
-	margin-top: 5px;
-}
-form.search-container::after {
-    /* Clear the floats after the columns */
-	content: "";
-	clear: both;
-	display: table;
-}
-h2 {
-    /* setting the font for h2 to bold*/
-	font-weight: bold;
-    /*setting the font size*/
-	font-size: 3em;
-    /*adding padding*/
-	padding: 10px;
-    /*adding margins to the top*/
-	margin-top: 30px;
-}
-h3 {
-    /*setting the font weight*/
-	font-weight: bolder;
-    /* setting the font size*/
-	font-size: 2em;
-    /*adding margins to th top and bottom*/
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-h4 {
-    /*setting the font weight*/ 
-	font-weight: bolder;
-    /* adding a border to the bottom of the text*/
-	border-bottom: 2px solid #c78c06;
-    /*adding margins to the bottom*/
-	margin-bottom: 10px;
-}
-.main1 {
-    /*setting the position to relative*/
-	position: relative;
-} 
-.bannerbox{
-    /* setting the background colour of the bannerbox container*/
-    background-color: #ffe6ac;
-}
-.welcome-message {
-    /*setting the position to absolute*/ 
-	position: absolute;
-    /*changing the position near the top*/
-	top: 5%;
-    /* setting the background colour to rgb to add the opacity directly to the colour*/
-	background: rgb(34, 34, 34, 0.6);
-    /* setting the colour of the text*/
-	color: white;
-    /*adding padding*/
-	padding: 15px;
-}
- 
-.connectbutton {
-    /*adding padding*/
-	padding: 20px;
-    /*setting the background colour*/
-	background: #c78c06;
-    /* setting the colour of the text*/
-	color: #222;
-    /* adding a border*/
-	border: 2px solid #c78c06;
-    /*adding margins to the top*/
-	margin-top: 10px;
-    /* changing the font size for the button*/
-	font-size: 18px;
-}
-.planbuttons {
-    /*adding padding*/
-	padding: 20px;
-    /*setting the background colour*/
-	background: #222;
-    /*setting the text colour*/
-	color: white;
-    /*adding a border*/
-	border: 2px solid #222;
-    /*adding margins to the top*//*adding margins to the top*/
-	margin-top: 10px;
-    /*changing the font size for the button*/
-	font-size: 18px;
-}
+        <div class="team2">
+            <!-- Bob Rite image -->
+                 <img src="images/bob.jpg" alt="Bob Rite" class="bob">
+            <!-- div container for the text and image of Bob Rite-->
+            <div class="teamtext">
+            <h3>Bob Rite</h3>
+            <h4>CFO and Co-owner</h4>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempus odio eros, quis ultricies sapien posuere at. Pellentesque vitae nibh aliquet, tincidunt diam id, porttitor augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</span>                
+            </div>
+        </div>
+    </article>
+           
+<!-- added articles to divide content into sections to add more containers to use in css -->
+        <article id="contact"> 
+            <h2 class="contact-us">Contact Us</h2> 
+        <div class="contact-page">  
+            <!-- sending the viewer back to the top of the index page after submitting the form-->
+            <!-- posting the information from the form to the index page-->
+            <form action="index.html" method="post">
+                <h3>Send us a message</h3>
+                <div class="formbox">
+            <!-- Contact page form -->
+                <label for="username">Your Name</label>
+                <input type="text" id="username" name="username">
 
-#vision {
-    /*setting the position to relative*/
-	position: relative;
-    /*setting the height of the vision container to 250px*/ 
-	height: 250px;
-}
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="email">
 
-.visionbox {
-    /*setting the position to absolute*/ 
-	position: absolute;
-    /*changing the position of the container to be near the top*/
-	top: 5%;
-    /*background image;*/
-	background-image: url("../images/vision.jpg");
-    /*changing the background position and background size to make sure the image always covers the div and doesn't repeat */
-    background-position: center center;
-    background-size: cover;
-    /*setting the colour of the text*/
-    color: white;
-    /*adding padding*/
-    padding: 15px; 
-
-}
-.visiontext {
-    /*setting the max-width of the text container*/ 
-     max-width: 1150px;
-}
-.visionbutton {
-    /*adding padding*/
-    padding: 20px;
-    /*setting the background colour to add opacity*/
-    background: rgb(34, 34, 34, 0.6);
-    /*setting the colour of the text*/
-    color: white;
-    /*adding a border */
-    border: 2px solid #c78c06;
-    /*adding margins to the top*/
-    margin-top: 10px;
-    /*setting the font size of the button*/
-    font-size: 18px;
-}
- 
-.sendbutton {
-    /*setting the font size of the button*/
-    font-size: 18px;
-    /*adding padding*/
-    padding: 4px;
-    /*setting the background colour*/
-    background: #222;
-    /*setting the colour of the text*/
-    color: #c78c06;
-    /*adding a black border*/ 
-    border: 2px solid #222;
-}
-/*Styling the information boxes*/
-input[type=text],
-select,
-textarea {
-    /* Full width of the browser*/
-    width: 100%;
-    /*adding padding*/
-    padding: 3px;
-    /* Makes sure that the padding and width stays in place*/
-    box-sizing: border-box;
-    /* Margin at the top*/
-    margin-top: 6px;
-    /* Margin at the bottom*/
-    margin-bottom: 16px;
-    /* Allow the user to vertically resize the textarea only*/
-    resize: vertical;
-}
-table {
-    /*setting the width of the table*/ 
-    width: 100%;
-}
-table,
-th,
-tr,
-td {
-    /*adding borders to the hours table*/ 
-    border: 1px solid #222;
-}
-th,
-td {
-    /*adding padding*/
-    padding: 1em 0;
-}
-
-th {
-   /*setting the background colour*/  
-    background: #ffe6ac;
-    /*certering the text*/
-    text-align: center;
-}
-
-td {
-    /*adding padding to the left*/
-    padding-left: 20px;
-}
- 
-.aboutbox {
-    /*setting the background colour*/
-    background: #ffe6ac;
-    /*adding padding*/
-    padding: 15px;
-}
- 
-.abouttitle{
-    /*setting the font size of the title*/
-    font-size: 3em;
-    /*setting the font weight of the title*/
-    font-weight: bolder;
-}
-
-.digitalbox,
-.marketingbox,
-.videobox,
-.webbox,
-.printbox,
-.team1,
-.team2 {
-/*adding light yellow background colour and margins to the content boxes*/     
-    background: #ffe6ac;
-    margin: 15px;
-}
-.about-us p {
-    /*adding padding*/
-    padding-bottom: 15px;
-}
-.texts,
-.teamtext {
-    /*adding padding*/ 
-    padding: 15px;
-    /*setting the line height of the texts*/ 
-    line-height: 1.5rem;
-}
- 
-.image-logo {
-    /*setting the sidth of the logo*/
-    width: 100px;
-    /*setting the height to automatic*/
-    height: auto;
-}
-img {
-/*Making the images fit the width of their containers*/     
-    width: 100%;
-    /*set the height to adjust of the dimentions of the width*/ 
-    height: auto;
-    /*making the image cover the container*/
-    object-fit: cover;
-}
-.contact-page,
-.hours,
-.location {
-    /*adding padding*/
-    padding: 15px;
-}
-iframe{
-    /*Making the map fit the width of it's container*/
-    width: 100%;
-}
-.contact-us {
-    /*adding padding on the bottom*/
-    padding-bottom: 0;
-}
-footer {
-    /*Setting the text and background colour */ 
-    background: #222;
-    color: #c78c06;
-    /* changing line height of the footer*/
-    line-height: 2;
-    /*adding padding*/
-    padding: 20px;
-}
-/*___________________________________________________________________________________________
-                                    Desktop Styling
-_____________________________________________________________________________________________*/
-
-@media screen and (min-width:760px) {
-    
-	nav{
-	/*reset the padding on the nav*/ 
-	padding: 0;
-	}
-    .backnav {
-		/*setting the position to relative*/ 
-		position: relative;
-		/*setting the position to the top of the container*/ 
-        top:0;
-        /*setting the height of the image*/
-        height:64.5%;
-        /* used right and left to position this element in the center of its container */
-        left: 50%;
-        right: 50%;
-        /* adding margins to the left right and bottom*/
-        margin-left: -50vw;
-        margin-right: -50vw;
-         /* set the width to be the width of the browser window */
-         width:100vw;
-        /*setting the background colour of the nav*/ 
-	    background-color: #222;
-		/*adding padding to center the nav*/ 
-		padding-left: 37%;
-    }
-    li a {
-        /*float the nav list to the left*/ 
-        float: left;
-        /*removing the text decorations*/
-        text-decoration: none;
-        /*adding padding*/
-        padding: 1em 2.5rem;
-        /* adding margins at the top */
-        margin-top: 45px;
-    }
-    .menucheck {
-        /*float the container to the left*/ 
-        float: left;
-        /*setting the background colour*/ 
-        background-color: #222;
-        /*adding padding*/
-        padding: 20px 50px;
-        /* adding margins */
-        margin: 10px;
-    }
-    form.search-container input[type=text] {
-        /*shortening the width of the searchbar*/ 
-        width: 15.4%;
-        /* adding margins to the top*/
-        margin-top: 50px;
-    }
-    form.search-container button {
-        /* adding margins to the top*/
-        margin-top: 50px;
-    }
-     
-    .welcome-message {
-        /*setting the position of the welcome message*/
-        position: absolute;
-        top: 5%;
-        left: 8%;
-        right: 8%;
-    }
-     
-    .bannerbox {
-        /*setting the height of the container*/
-        height: 510px;
-        /*removing the background colour*/
-        background: none;
-    }
-    
-    .mainimage {
-        /**/ 
-        position: absolute;
-        top:0;
-        /*setting the height of the image*/
-        height:100%;
-        /* used right and left to position this element in the center of its container */
-        left: 50%;
-        right: 50%;
-        /* adding margins to the left right and bottom*/
-        margin-left: -50vw;
-        margin-right: -50vw;
-         /* set the width to be the width of the browser window */
-         width:100vw;
-         /* set a negative z-index (or layer) to put this behind your content */
-         z-index: -1; 
-    }
-    .aboutbox {
-        /*using flex to set the container*/
-        display: flex;
-				/*setting the position to relative*/ 
-				position: relative;
-				/*setting the position to the top of the container*/ 
-				top:0;
-				/*setting the height of the image*/
-				height:64.5%;
-				/* used right and left to position this element in the center of its container */
-				left: 50%;
-				right: 50%;
-				/* adding margins to the left right and bottom*/
-				margin-left: -50vw;
-				margin-right: -50vw;
-				 /* set the width to be the width of the browser window */
-				 width:100vw;
-				/*adding padding to center the nav*/ 
-				padding-left: 37%;
-    }
-
-    .about-us {
-        /*changing the direction of about us container - reversing the image and text*/ 
-        flex-direction: row-reverse;
-        /*adding padding left and right*/
-        padding-left: 30px;
-        padding-right: 60px;
-		
-    }
-   
-    .aboutimage{
-        /*setting the height of the image to 250px*/ 
-        height: 250px;
-        /*setting the width to ajust the dimensions to match the height*/
-        width: auto;
-        /*adding padding to the left*/
-        padding-left: 60px;
-    }
-    
-    .abouttitle{
-        /*resetting the top margin*/ 
-        margin-top: 0px;
-    }
-    h2 {
-        /*adding padding*/
-        padding-left: 60px;
-    }
-    .services {
-        /*setting the display of the container to grid*/ 
-        display: grid;
-        /*adding 6 columns to the grid*/ 
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        /*adding 2 rows that changes to fit the height of the content*/
-        grid-template-rows: auto auto;
-        /*adding padding*/
-        padding: 0 50px 0 50px;
-    }
-    .digitalbox {
-        /*the item spans for 3 columns*/ 
-        grid-column: 1 / span 3;
-        /*the item is placed on the 1st row*/ 
-        grid-row: 1;
-        /* adding margins to the bottom and right*/
-        margin-bottom: calc(15px - 9px);
-        margin-right: calc(15px - 9px);
-    }
-    .marketingbox {
-        /*the item starts on the 4th column and spans for 3 columns*/ 
-        grid-column: 4/ span 3;
-        /*the item is placed on the 1st row*/ 
-        grid-row: 1;
-        /* adding margins to the bottom and right*/
-        margin-bottom: calc(15px - 9px);
-        margin-left: calc(15px - 9px);
-    }
-    .videobox {
-        /*the item starts on the 1st column and spans for 2 columns*/ 
-        grid-column: 1 /span 2;
-        /*the item is placed on the 2nd row*/ 
-        grid-row: 2;
-        /* adding margins to the bottom and right*/
-        margin-top: calc(15px - 9px);
-        margin-right: calc(15px - 9px);
-    }
-    .webbox {
-        /*the item starts on the 3rd column and spans for 2 columns*/ 
-        grid-column: 3 / span 2;
-         /*the item is placed on the 2nd row*/
-        grid-row: 2;
-        /* adding margins to the top, bottom and right*/
-        margin-top: calc(15px - 9px);
-        margin-right: calc(15px - 9px);
-        margin-left: calc(15px - 9px);
-    }
-    .printbox {
-        /*the item starts on the 5th column and spans for 2 columns*/ 
-        grid-column: 5 /span 2;
-         /*the item is placed on the 2nd row*/
-        grid-row: 2;
-        /* adding margins to the bottom and right*/
-        margin-top: calc(15px - 9px);
-        margin-left: calc(15px - 9px);
-    }
-    .planbuttons {
-        /*setting the width of the button to the size of the container*/ 
-        width: 100%;
-        /*setting the height of the buttons*/
-        height: 10vh;
-        /*setting the font size of button text*/
-        font-size: 20px;
-    }
-    .visionbox {
-		/*setting the position to relative*/ 
-		position: relative;
-		/*setting the position to the top of the container*/ 
-        top:0;
-        /*setting the height of the image*/
-        height: 80%;
-        /* used right and left to position this element in the center of its container */
-        left: 50%;
-        right: 50%;
-        /* adding margins to the left right and bottom*/
-        margin-left: -50vw;
-        margin-right: -50vw;
-         /* set the width to be the width of the browser window */
-         width:100vw;
-        /*setting the background colour of the nav*/ 
-	    background-color: #222;
-		/*adding padding to center the nav*/ 
-		padding-left: 34%;
-		/*adding margin to the top*/
-		margin-top: 20px;
-    }
-    .visiontext{
-        /*adding margins to the left*/
-        margin-left: 150px;
-		margin-right: 20px;
-    } 
-    
-    .team1 {
-        /*setting the display of the container to flex*/
-        display: flex;
-        /*adding margins */
-        margin: 10px 60px 0 60px;
-    }
-    .team2 {
-        /**setting the display of the container to flex*/
-        display: flex;
-        /*reversing the row direction*/
-        flex-direction: row-reverse;
-        /* adding margins */
-        margin: 0 60px;
-    }
-    .john,
-    .bob {
-        /*setting the width of the team images*/
-        width: 50%;
-    }
-    #contact {
-        /*setting the display to grid*/ 
-        display: grid;
-        /*adding 2 columns*/
-        grid-template-columns: 1fr 1fr;
-        /*adding 2 rows that changes to fit the height of the content*/
-        grid-template-rows: auto auto auto;
-        /* adding margins */
-        margin: 0 50px;
-        
-    }
-    .contact-us {
-        /*the item starts on the 1st column and spans for 2 columns*/
-        grid-column: 1 / span 2;
-        /*the item is placed on the 1st row*/ 
-        grid-row: 1;
-        /*adding padding to the left*/
-        padding-left: 10px;
-    }
-    .contact-page {
-        /*the item placed on the 1st column*/
-        grid-column: 1;
-        /*the item is placed on the 2nd row*/
-        grid-row: 2;
-    }
-    .hours {
-        /*the item starts on the 1st column and spans for 2 columns*/
-        grid-column: 1 / span 2;
-        /*the item is placed on the 3rd row*/
-        grid-row: 3;
-    }
-    .location {
-        /*the item is placed on the second column*/
-        grid-column: 2;
-        /*the item is placed on the 2ns row*/
-        grid-row: 2;
-    }
-    #message {
-        /*setting the height to 30px*/ 
-        height: 30px;
-    }
-    .visionbutton {
-        /*Adding padding and making the font larger*/ 
-        padding: 30px 40px;
-        /*setting the font size of the button*/
-        font-size: 20px;
-    }
-	.backfooter{
-				/*setting the position to relative*/ 
-				position: relative;
-				/*setting the height of the image*/
-				height: 100%;
-				/* used right and left to position this element in the center of its container */
-				left: 50%;
-				right: 50%;
-				/* adding margins to the left right and bottom*/
-				margin-left: -50vw;
-				margin-right: -50vw;
-				 /* set the width to be the width of the browser window */
-				 width:100vw;
-				/*setting the background colour of the nav*/ 
-				background-color: #222;
-				/*adding padding to center the nav*/ 
-				padding-left: 45%;
-				/*adding margin to the top*/
-				margin-top: 20px;
-				/*adding a border around the text of the footer*/
-				border: 25px solid #222;
-	}
-	footer{
-		/*resetting the padding*/
-		padding: 0;
-	}
-}
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" style="height:200px"></textarea>    
+        </div>
+            <!-- added a submit button -->
+            <input class="sendbutton" type="submit" name="submit" id="submit" value="Send">
+            </form>
+        </div>
+        <!-- added a div container for the hours of operation content-->
+        <div class="hours">
+            <!-- added table with the hours of operation -->
+            <h3>Hours of operation</h3>
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Monday - Friday</td>
+                        <td>9 AM - 6 PM</td>
+                      </tr>
+                      <tr>
+                        <td>Saturday - Sunday</td>
+                        <td>Closed</td>
+                      </tr>
+                    </tbody>
+                  </table>
+        </div>
+        <div class="location">
+            <!-- added a div container for the google map-->
+           <h3>Location</h3> 
+           <!-- add google map -->
+           <div class="mapembed">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9445518045395!2d-75.75712548419932!3d45.3499315490813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1637855127682!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
+        </article>
+    </main>
+<!-- added copyright-->
+        <footer>
+        <div class="backfooter">
+            <p><small>&copy; Copyright Three Star Media, 2020</small></p>
+            <p><small>All images are taken from <ins>Unsplash</ins></small></p>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
+<!-- End of code-->        
