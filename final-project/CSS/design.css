@@ -577,7 +577,7 @@ ________________________________________________________________________________
     
     .mainimage {
         /**/ 
-        position: relative;
+        position: absolute;
         top:0;
         /*setting the height of the image*/
         height:100%;
@@ -585,7 +585,7 @@ ________________________________________________________________________________
         left: 50%;
         right: 50%;
         /* adding margins to the left right and bottom*/
-        margin-left: -40vw;
+        margin-left: -50vw;
         margin-right: -50vw;
          /* set the width to be the width of the browser window */
          width:100vw;
