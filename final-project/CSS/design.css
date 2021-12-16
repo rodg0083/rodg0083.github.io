@@ -275,7 +275,6 @@ h4 {
     /*adding margins to the bottom*/
 	margin-bottom: 10px;
 }
- 
 .main1 {
     /*setting the position to relative*/
 	position: relative;
@@ -347,6 +346,7 @@ h4 {
     color: white;
     /*adding padding*/
     padding: 15px; 
+
 }
 .visiontext {
     /*setting the max-width of the text container*/ 
@@ -505,14 +505,29 @@ ________________________________________________________________________________
 
 @media screen and (min-width:760px) {
     
-    nav {
+	nav{
+	/*reset the padding on the nav*/ 
+	padding: 0;
+	}
+    .backnav {
+		/*setting the position to relative*/ 
+		position: relative;
+		/*setting the position to the top of the container*/ 
+        top:0;
+        /*setting the height of the image*/
+        height:64.5%;
+        /* used right and left to position this element in the center of its container */
+        left: 50%;
+        right: 50%;
         /* adding margins to the left right and bottom*/
-        margin-left: -12vw;
-        padding-right: -6vw;
-        /* set the width to be the width of the browser window */
-        width: 100vw;
+        margin-left: -50vw;
+        margin-right: -50vw;
+         /* set the width to be the width of the browser window */
+         width:100vw;
         /*setting the background colour of the nav*/ 
 	    background-color: #222;
+		/*adding padding to center the nav*/ 
+		padding-left: 37%;
     }
     li a {
         /*float the nav list to the left*/ 
@@ -520,7 +535,7 @@ ________________________________________________________________________________
         /*removing the text decorations*/
         text-decoration: none;
         /*adding padding*/
-        padding: 1em 2rem;
+        padding: 1em 2.5rem;
         /* adding margins at the top */
         margin-top: 45px;
     }
@@ -536,7 +551,7 @@ ________________________________________________________________________________
     }
     form.search-container input[type=text] {
         /*shortening the width of the searchbar*/ 
-        width: 20%;
+        width: 15.4%;
         /* adding margins to the top*/
         margin-top: 50px;
     }
@@ -562,17 +577,16 @@ ________________________________________________________________________________
     
     .mainimage {
         /**/ 
-        position: absolute;
+        position: relative;
         top:0;
         /*setting the height of the image*/
-        height:64.5%;
+        height:100%;
         /* used right and left to position this element in the center of its container */
         left: 50%;
         right: 50%;
         /* adding margins to the left right and bottom*/
-        margin-left: -50vw;
+        margin-left: -40vw;
         margin-right: -50vw;
-        margin-bottom: 80px;
          /* set the width to be the width of the browser window */
          width:100vw;
          /* set a negative z-index (or layer) to put this behind your content */
@@ -581,8 +595,22 @@ ________________________________________________________________________________
     .aboutbox {
         /*using flex to set the container*/
         display: flex;
-        /*adding padding to the bottom*/
-        padding-bottom: 0px;
+				/*setting the position to relative*/ 
+				position: relative;
+				/*setting the position to the top of the container*/ 
+				top:0;
+				/*setting the height of the image*/
+				height:64.5%;
+				/* used right and left to position this element in the center of its container */
+				left: 50%;
+				right: 50%;
+				/* adding margins to the left right and bottom*/
+				margin-left: -50vw;
+				margin-right: -50vw;
+				 /* set the width to be the width of the browser window */
+				 width:100vw;
+				/*adding padding to center the nav*/ 
+				padding-left: 37%;
     }
 
     .about-us {
@@ -591,6 +619,7 @@ ________________________________________________________________________________
         /*adding padding left and right*/
         padding-left: 30px;
         padding-right: 60px;
+		
     }
    
     .aboutimage{
@@ -657,7 +686,6 @@ ________________________________________________________________________________
         margin-right: calc(15px - 9px);
         margin-left: calc(15px - 9px);
     }
-    /**/ 
     .printbox {
         /*the item starts on the 5th column and spans for 2 columns*/ 
         grid-column: 5 /span 2;
@@ -676,23 +704,33 @@ ________________________________________________________________________________
         font-size: 20px;
     }
     .visionbox {
-       /*setting the box to the top*/
-       top:0;
-       /*left to position this element in the center of its container */
-       left: -16.2%;
-
-        /*set the width to be the width of the browser window */
-        width:100vw;
-
+		/*setting the position to relative*/ 
+		position: relative;
+		/*setting the position to the top of the container*/ 
+        top:0;
+        /*setting the height of the image*/
+        height: 80%;
+        /* used right and left to position this element in the center of its container */
+        left: 50%;
+        right: 50%;
+        /* adding margins to the left right and bottom*/
+        margin-left: -50vw;
+        margin-right: -50vw;
+         /* set the width to be the width of the browser window */
+         width:100vw;
+        /*setting the background colour of the nav*/ 
+	    background-color: #222;
+		/*adding padding to center the nav*/ 
+		padding-left: 34%;
+		/*adding margin to the top*/
+		margin-top: 20px;
     }
     .visiontext{
         /*adding margins to the left*/
         margin-left: 150px;
+		margin-right: 20px;
     } 
-    #team{
-        /*adding margins to the top*/
-        margin-top: 50px;
-    }
+    
     .team1 {
         /*setting the display of the container to flex*/
         display: flex;
@@ -759,8 +797,30 @@ ________________________________________________________________________________
         /*setting the font size of the button*/
         font-size: 20px;
     }
-    footer{
-        /*Adding padding to the footer*/ 
-        padding-left: 60px;
-    }
+	.backfooter{
+				/*setting the position to relative*/ 
+				position: relative;
+				/*setting the height of the image*/
+				height: 100%;
+				/* used right and left to position this element in the center of its container */
+				left: 50%;
+				right: 50%;
+				/* adding margins to the left right and bottom*/
+				margin-left: -50vw;
+				margin-right: -50vw;
+				 /* set the width to be the width of the browser window */
+				 width:100vw;
+				/*setting the background colour of the nav*/ 
+				background-color: #222;
+				/*adding padding to center the nav*/ 
+				padding-left: 45%;
+				/*adding margin to the top*/
+				margin-top: 20px;
+				/*adding a border around the text of the footer*/
+				border: 25px solid #222;
+	}
+	footer{
+		/*resetting the padding*/
+		padding: 0;
+	}
 }
