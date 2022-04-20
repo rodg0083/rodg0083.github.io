@@ -1,0 +1,753 @@
+
+
+
+gray: 606060
+
+cultured: aaa or f2f2f2
+
+red: ca0902
+
+purple: 570547
+lilac:  a288e3
+
+yellow: f7931e 
+
+blue: 084c61 
+
+
+
+ class="navbar"
+ class="navbar-container container
+class="hamburger-lines"
+class="line line1">
+class="line line2">
+class="line line3">
+class="menu-items">
+class="logo" 
+
+
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <h4 class="text-white">Collapsed content</h4>
+      <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>
+
+
+
+FOOTER
+
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3">Register for free</span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Sign up!
+          </button>
+        </p>
+      </section>
+
+
+
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example29" class="form-control" />
+              <label class="form-label" for="form5Example29">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+
+
+Social Icons
+
+
+
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+
+Purple Footer
+
+
+
+<section class="">
+  <!-- Footer -->
+  <footer class="bg-secondary text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Footer Content</h5>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Open Sans
+Nunito 
+Libre Baskerville
+
+Charm 
+Gabriella/Gabriello
+
+Cinzel Decorative
+
+Let's Discuss!
+Not sure how to start building your online presence? Let us help! 
+Let’s discuss what will be the best option for YOU to begin your Successful Online Business!
+
+
+
+Branding and logo design
+Modern web design
+Search Engine Optimization / SEO
+Photography
+Video Production
+Print
+Graphic design commissions
+Animated visuals
+
+
+
+Meet ...
+A proud PAC member and an advocate for artist's rights. 
+... graduated from Harvard law school in 2018 and ran a campaign for a local ottawa MP.
+... with ...'s experience running a campaign ... is the campaign advisor and secretary of running MP candidate Victoria Rodgers.
+
+
+... is another proud PAC member. 
+... is a creative part-time artists and graphic designer. 
+... is in charge of the social media and promotional material for the 2023 MP campaign. 
+
+
+
+
+
+WORDPRESS
+
+SHOPIFY
+
+DRUBAL
+
+ r]x97N!u_(4/%hCW
+1l0v3m3$0m3ch0c0l@T3
+TheBigPurpleDog1
+
+Photography
+
+-        Stunning photos with great presentation!
+
+o   Portrait
+
+o   Product
+
+o   Landscape
+
+Video Production
+
+-        Level up your "video" (storytelling) game with eye-catching visuals.  
+
+Print
+
+-        Need something for your business or for a local event? 
+
+With custom-made artistic designs, your project is sure to… soar to new heights/inspire.
+
+o   Posters
+
+o   Flyers
+
+o   Brochures
+
+o   Postcards and Greeting Cards
+
+o   Business Cards
+
+o   Catalogs and print Ads
+
+Graphic design commissions
+
+-        Creative and unique designs that make heads turn!
+
+Animated visuals
+
+-        Need an animated visual? I’ve got you covered!
+
+Get an animated visual for your logo. It makes for a great video presentation/starter!
+
+o   Title cards
+
+o   Short Ads
+
+o   Gifs
+
+
+
+
+
+HTML 
+
+CSS
+
+JAVASCRIPT
+
+BOOTSTRAP
+
+VISUAL STUDIO CODE
+
+CODE PEN
+
+
+What is your name?*
+Full Name
+What is your website url?
+Your Website
+What is your email?
+Email
+What is your number?
+Phone Number
+Please tell us what you’re looking for and we will be glad to assist you:*
+ Modern Website Design
+ Google Ads. & PPC Management
+ Social Media Management
+ Leads Generatation Website
+ SEO for Existing Website
+ Ideas to Improve Marketing
+ Digital Marketing Strategy
+ Social Media Marketing
+ New Business Logo
+ Others (Please Specify)
+Others (Please Specify):
+
+
+Feel free to ask us any questions!
+Wanna have an in-depth conversation about your project? Book a free consultation today!
+
+
+Fun visuals, creative ideas and... Designs that inspire. That's what defines Artisly Designs. 
+
+
+
+            <table>
+                <caption><h3>Hours of operation</h3></caption>
+                <thead>
+                  <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Monday - Friday</td>
+                    <td>9 AM - 6 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>Closed</td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+                <span>Monday - Friday: 9 AM - 6 PM</span>
+                <span>Saturday - Sunday: Closed</span>
+
+
+max-width: 1200px;
+min-width: 760px;
+
+
+
+form.search-container input[type=text] {
+	/*adding padding*/
+	padding: 10px;
+	/* setting the font size for the search container*/
+	font-size: 16px;
+	/* adding a border*/
+	border: 1px solid gray;
+	/* float the searchbar to the left*/
+	float: left;
+	/* setting the background*/
+	background: white;
+}
+	
+
+form.search-container button {
+	/*float the search button to the left next to the searchbar*/
+	float: left;
+	/*display: inline-block;*/
+	padding: 5px;
+	/* setting the colour of the icon gold*/
+	color: white;
+	/* removing the left boarder*/
+	border-left: none;
+	/* changing the cursor into a pointer when cursor hovers over the button*/
+	cursor: pointer;
+
+}
+.icon-zoom {
+		font-size: 1.5rem;
+	}
+
+form.search-container::after {
+	/*Clearing the floats after the columns */
+	content: "";
+	clear: both;
+	display: table;
+}
+
+font-family: 'Gabriela', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+
+
+
+.main{
+	background-image: url(../images/banner.jpg);
+	background-position: bottom center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1000px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.banner {
+	background-color: #00000099;
+	height: 1000px;
+}
+
+.overlay {
+	color: white;
+	padding: 60px;
+	text-align: center;
+}
+
+	/*.backnav {
+		/*setting the position to relative*/
+		/*position: absolute;
+		/*setting the position to the top of the container*/
+		/*top: 0;
+		/*setting the height of the image*/
+		/*height: 100%;
+		/* used right and left to position this element in the center of its container */
+	/*	left: 50%;
+		right: 50%;
+		/* adding margins to the left right and bottom*/
+	/*	margin-left: -50vw;
+		margin-right: -50vw;
+		/* set the width to be the width of the browser window */
+		/*width: 100vw;
+		/*setting the background colour of the nav*/
+	/*	background-color: #222;
+		/* set a negative z-index (or layer) to put this behind your content */
+	/*	z-index: -1;
+	} */
+
+
+	.menucheck {
+		/*float the container to the left*/
+		float: left;
+		/*setting the background colour*/
+		background-color: #222;
+		/*adding padding*/
+		padding: 20px 50px;
+		/* adding margins */
+		margin: 10px;
+	}
+
+
+470550
+36013F
+C481DA
+222222
+
+hsla(10,100%,65%,1.00)
+
+
+760
+- 320 540 760
+
+960
+- 760 960 1280
+
+1280
+ - 1280 1600 3840
+
+
+425
+393
+
+
+
+Branding and Logo Design
+
+Modern Website Design
+
+Web development? 
+
+Search Engine Optimisation - SEO 
+
+Photography
+
+Video Production
+
+Print 
+
+		Poster & Brochures
+
+		Flyers & Postcards 
+
+		Buisness Cards
+
+
+Graphic Design Commissions 
+
+Animated Designs
+
+Web Hosting and Management 
+
+
+
+
+
+760
+- 320 540 760
+
+960
+- 760 860 960
+
+1280
+ - 960 1170 1280
+
+
+
+
+
+760
+- 760 1520 2280
+
+960
+- 960 1920 2560
+
+1280
+ - 1280 1600 3840
+
+
+#banner{
+	background-color: purple;
+	text-align: center;
+}
+
+.contact-page{
+	padding: 60px;
+   }
+
+input[type=text],
+select,
+textarea {
+	/*Styling the information boxes*/
+	width: 100%;
+	/* Full width */
+	padding: 3px;
+	/* Padding */
+	border: 1px solid #ccc;
+	/* Gray border */
+	box-sizing: border-box;
+	/* Makes sure that the padding and width stays in place */
+	margin-top: 6px;
+	/* Margin at the top */
+	margin-bottom: 16px;
+	/* Margin at the bottom */
+	resize: vertical/* Allow the user to vertically resize the textarea only*/
+}
+
+.formbox{
+	margin-top: 60px;
+}
+.sendbutton {
+
+	color: white;
+	font-size: 1.2rem;
+	background-color: purple;
+	height:50px;
+	width: 180px;
+	border-radius: 50px;
+	margin-top: 30px;
+	/* changing the cursor into a pointer when cursor hovers over the button*/
+	cursor: pointer;
+	border: 2px solid white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
